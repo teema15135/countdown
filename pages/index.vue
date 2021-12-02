@@ -43,7 +43,7 @@ export default Vue.extend({
   data() {
     return {
       showTime: true,
-      showDateTimePicker: true,
+      showDateTimePicker: false,
       countTo: Date.now(),
       dateTimePickerValue: '',
       time: {
